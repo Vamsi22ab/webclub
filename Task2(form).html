@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+</head>
+<body style="background:rgb(190, 237, 237)">
+    <h1 style="color: rgb(50, 50, 172); text-align: center;">MADANAPALLE INSTITUE OF TECHNOLOGY & SCIENCE </h1>
+    <h3 style="color:rgb(50, 50, 172) ; text-align: center;">Kadiri road,Angallu,517325,Andhra Pradesh,India</h3>
+<hr>
+<form action="">
+    <br>
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="mits1.jpg"  width="400" height="300">
+    <img src="mits2.jpg"  width="400" height="300" ></div> 
+    <br><br>
+    <label for="Name">Enter your name </label><input type="" required>
+    <br>
+    <br>
+    <label for="Phone number">Enter your Phone no. </label><input type="text" required>
+    <br><br>
+    <label for="Aadhaar">Enter your Aadhaar no. </label><input type="number" required>
+    <br><br>
+    Gender:
+    male <input type="radio" name="gender">
+    female <input type="radio" name="gender"><br><br>
+    <label for="DOB">Enter your DOB </label><input type="date" required placeholder="Date-Month-Year">
+    <br><br>
+    <label for="Email">Enter your Email Id </label><input type="email">
+    <br><br>
+    <label for=" FatherName">Enter your fathername </label><input type="">
+    <br><br>
+    <label for="Father contact">Enter your father contact no. </label><input type="">
+    <br><br>
+    <label for="MotherName">Enter your mothername </label><input type="">
+    <br><br>
+    <label for="address">Enter your address </label><input type="">
+    <br><br>
+    <label for="pincode">Enter pincode </label><input type="">
+    <br><br>
+    <label for="Branch">Choose branch </label>
+    <select name="branch" required>
+        <option value="0"></option>
+        <option value="CSE">Computer Science & Engineering</option>
+        <option value="CAI">Computer Science & Engineering(Artificial intelligence)</option>
+        <option value="CSD">Computer Science & Engineering(Data Science)</option>
+        <option value="CSC">Computer Science & Engineering(Cyber Security)</option>
+        <option value="CST">Computer Science & Technology</option>
+        <option value="ECE">Electronics & Communication Engineering</option>
+        <option value="EEE">Electrical & Electronics Engineering</option>
+        <option value="MEC">Mechanical Engineering</option>
+        <option value="CIV">Civil Engineering</option>
+        </select>
+        <br><br> <hr>
+        Educational Details
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>sl.no.</th>
+                    <th> Board Examination </th>
+                    <th> Year of passing </th>
+                    <th>Percantage(%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                 <td style="text-align: center;"> 1</td>   
+                 <td><input type="text" name="class12_board" maxlength="30"/></td>
+                 <td><input type="text" name="class12_passing" maxlength="30"/></td>
+                 <td><input type="text" name="class12_percentage" maxlength="30"/></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td><input type="text" name="class10_board" maxlength="30"/></td>
+                 <td><input type="text" name="class10_passing" maxlength="30"/></td>
+                 <td><input type="text" name="class10_percentage" maxlength="30"/></td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <hr>
+        <input type="reset" value="Reset" >
+        <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
