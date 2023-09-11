@@ -1,0 +1,59 @@
+body{
+     background:rgb(235, 229, 233);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     font-style: italic;
+}
+ .box{
+    background-color: rgb(16, 71, 180);
+    border: 20px;
+    width: 400px;
+    height: 770px;
+    box-sizing: border-box;
+}
+.name{
+    text-align: center;
+}
+.contact{
+    font-weight: bold;
+}
+.education{
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(209, 221, 239);
+}
+.object{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.skills{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.ach{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.cer{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.str{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.area{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.hobbies{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
+.lan{
+    font-weight: bold;
+    color: rgb(21, 21, 181);
+}
