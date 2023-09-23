@@ -1,0 +1,45 @@
+body{
+    background-color:white;
+    box-sizing: middle;
+    
+
+}
+.box{
+   
+}
+.box1{
+    align-items: center;
+    background-color:w;
+     border: 10px;
+     border-width: 2px;
+     border-radius: 30px;
+     min-height: 750px;
+     max-width: 1000px;
+     margin-block: 20px;
+     padding-left: 200px;
+}
+.hr{
+    color: rgb(127, 136, 255);
+    border: none;
+            border-top: 5px solid #141697;
+            margin:10px ;
+            border-radius: 30px;
+
+}
+
+.web{
+    color: rgb(5, 19, 14);
+    text-align: center;
+    padding-left=200px;
+    
+}
+label{
+    
+}
+input{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border-color:#8c4fba;
+}
